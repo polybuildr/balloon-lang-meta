@@ -25,6 +25,8 @@ Balloon is meant to be a scripting language, primarily meant for back-end web pr
 
 - Types
     - `[u]int[8|16|32|64]` and `float[32|64]`
+    - union types: `string | number`
+    - nullability vs default values (safety?)
     - Unicode strings, utf-8 strings
 
 - Mutability
@@ -39,3 +41,4 @@ Balloon is meant to be a scripting language, primarily meant for back-end web pr
 ## Non-goals
 - Being an "original", "innovative" language
 - Speed => will not spend much time optimizing, at least initially
+x
