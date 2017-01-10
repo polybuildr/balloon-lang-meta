@@ -21,6 +21,8 @@ v2[0]; // = 1
 
 Both types have their gotchas.
 
+TBH, web programmers are probably used to the default reference version. So maybe something like a `= copy` and `= deepcopy` would make assigning to a copy clearer, and the default should be left as copy by reference.
+
 ## Error handling: exceptions vs return values
 ...
 
@@ -77,3 +79,7 @@ similar to how python has
 ```py
 x = 10 if cond else 20
 ```
+
+## Sum types and union types?
+
+Ideally, would like to support both.
