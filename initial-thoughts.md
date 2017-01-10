@@ -41,4 +41,4 @@ Balloon is meant to be a scripting language, primarily meant for back-end web pr
 ## Non-goals
 - Being an "original", "innovative" language
 - Speed => will not spend much time optimizing, at least initially
-x
+- Concurrency
