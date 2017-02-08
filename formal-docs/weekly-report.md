@@ -17,3 +17,26 @@
 - [IRC] Was pointed to a "Programming Languages Zoo" (https://github.com/andrejbauer/plzoo) with examples of tiny languages, each with different language features (functional, declarative, object-oriented, and procedural languages, for example)
 - [IRC] Got an explanation for why normal subtyping makes type inference difficult
 - [IRC] Was pointed to Google's Dart, since it seems to share many goals
+
+# Week 2: 19th Jan - 24th Jan
+
+- Looked at Dart language, since it shares many common goals
+- Attempted to understand details of Jeremy Siek's paper on gradual typing for objects
+- A week long vacation started on the 24th
+
+# Week 3: 1st Feb - 8th Feb
+
+- Considered and decided some semantics of the language
+    - Basic syntax (without OOP considerations)
+    - Handling of immutability: asked certain questions on IRC channel and StackOverflow: have some tentative decisions
+- Ran a basic analysis on jQuery's code to look for a particular assignment pattern
+- Read (and understood more of) Siek's paper
+- Found an LLVM Kaleidoscope tutorial in Rust for reference: https://github.com/jauhien/iron-kaleidoscope
+- Reconsidered Rust vs C++ for implementation.
+    - With some assurance of help with the trickier parts of Rust, will tentatively go with Rust.
+- Found and read Siek's analysis of gradual typing in TypeScript
+    - [Part 1](siek.blogspot.in/2012/10/is-typescript-gradually-typed-part-1.html), [Part 2](siek.blogspot.in/2012/10/is-typescript-gradually-typed-part-2.html)
+    - Discusses type 1, type 2, and type 3 gradual typing
+    - Raises some issues in TypeScript, a TypeScript team member responds
+    - For type 3 typing, will need to look at a follow up paper by Siek on blaming
+    
