@@ -22,6 +22,7 @@
 
 - Looked at Dart language, since it shares many common goals
 - Attempted to understand details of Jeremy Siek's paper on gradual typing for objects
+- Learnt that there was a difference between optional and gradual typing
 - A week long vacation started on the 24th
 
 # Week 3: 1st Feb - 8th Feb
