@@ -6,4 +6,12 @@
   - OOP: some details to be figured out later
   - "Everything is an object" paradigm; primitives?
   - First class functions, `fn`
-- ...
+- Start implementation
+  - Will start with Rust
+  - Start with variable declarations, basic binary ops
+  - Functions and closures
+  - OOP in next stage
+- Resources while implementing
+  - Siek and Taha's: Gradual typing for objects
+  - Gavin, Abadi's: Understanding typescript
+  - Suggestion for resources, while implementing?
