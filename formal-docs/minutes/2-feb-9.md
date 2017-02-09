@@ -14,4 +14,5 @@
 - Resources while implementing
   - Siek and Taha's: Gradual typing for objects
   - Gavin, Abadi's: Understanding typescript
+  - Bob Nystrom's "Crafting interpreters" book code: jlox
   - Suggestion for resources, while implementing?
