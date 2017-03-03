@@ -3,7 +3,7 @@
 - Looked into Scala's type system
     - https://twitter.github.io/scala_school/type-basics.html
     - Part of https://twitter.github.io/scala_school/advanced-types.html
-    - Went through some basic tutorials at https://www.tutorialspoint.com/scala/ 
+    - Went through some basic tutorials at https://www.tutorialspoint.com/scala/
 - Read about subtype polymorphism, parametric polymorphism, covariance and contravariance (especially in function calls), and row polymorphism
 - Looked at Typed Racket
 - Looked at Racket's syntax extensions
@@ -40,4 +40,34 @@
     - Discusses type 1, type 2, and type 3 gradual typing
     - Raises some issues in TypeScript, a TypeScript team member responds
     - For type 3 typing, will need to look at a follow up paper by Siek on blaming
-    
+
+# Week 4, 5, 6: 9th Feb - 3rd March
+
+- Basic interpreter and REPL
+    - 777 lines of Rust (total works in commits: 2388++, 912--)
+    - variable declarations
+    - arithmetic
+    - 2 primitive types: `Number` (with subtypes `Integer`, `Float`), `Bool`
+    - comparison operators, equality operators
+    - logical operators `and`, `or`, and `not`
+    - `if`/`else` statements
+
+- Things read
+    - ["Let's stop copying C"](https://eev.ee/blog/2016/12/01/lets-stop-copying-c/)
+
+      Slightly questionable choices from C that other languages seem to continue making.
+
+    - Next chapter of "Crafting Interpreters": [Representing Code](http://craftinginterpreters.com/representing-code.html)
+
+- More experience on sum types and tagged variants when using Rust. Relevant since the new language will probably have these.
+    - Combinators, early returns
+    - Haskell's `liftM2`
+- Explicit line terminators or not - that is the question
+    - ambiguities in JS, Go
+    - Dartlang issue discussing this
+    - chose to have explicit terminators at least for now for simplicity's sake
+- Integers and floats: problems with JS's `float64`
+- Lua
+    - Small, fast, "simple" language: can be intepreted or compiled
+    - Entire distribution is just ~1.1MB, can be compiled on virtually any platform
+    - Lua 5.3's change wrt integers, `number` type with two subtypes

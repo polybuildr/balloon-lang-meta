@@ -35,7 +35,7 @@
 
   https://github.com/vlead/web-app-short-course/tree/deployment
 
-# Takeaways
+# Takeaway + Plan
 - Read more, as always
 - Start writing code, get something running by next meeting
 - Give a first draft of what I want to finally achieve
