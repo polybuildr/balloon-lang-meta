@@ -41,10 +41,10 @@
     - Raises some issues in TypeScript, a TypeScript team member responds
     - For type 3 typing, will need to look at a follow up paper by Siek on blaming
 
-# Week 4, 5, 6: 9th Feb - 3rd March
+# Week 4, 5, 6..: 9th Feb - 7rd March
 
 - Basic interpreter and REPL
-    - 777 lines of Rust (total works in commits: 2388++, 912--)
+    - 1174 lines of Rust (total work in commits: 2956++, 1091--)
     - variable declarations
     - arithmetic
     - 2 primitive types: `Number` (with subtypes `Integer`, `Float`), `Bool`
