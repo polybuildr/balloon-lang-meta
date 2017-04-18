@@ -88,4 +88,6 @@
   Also account for variadic functions like `println`
 - Support for user-written functions as closures ([69346dcd](https://github.com/polybuildr/balloon-lang/commit/69346dcdd176e7b472236a41270c6d85d0522c25, [bbcd3d7e](https://github.com/polybuildr/balloon-lang/commit/bbcd3d7eb2924be8e3a584a6af70daa9e229495b))
   
+  Involved first possible occurrence of `null` - avoided that.
+  
   Also add tests for curried add ([c3091fc3](https://github.com/polybuildr/balloon-lang/commit/c3091fc3edefbee86207bcc89e9ca160f2c68c84)) and Y combinator ([53887b89](https://github.com/polybuildr/balloon-lang/commit/53887b89fc70a501c8f69f0f0402db7f1c00f164))
