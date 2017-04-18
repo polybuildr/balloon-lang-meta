@@ -41,7 +41,7 @@
     - Raises some issues in TypeScript, a TypeScript team member responds
     - For type 3 typing, will need to look at a follow up paper by Siek on blaming
 
-# Week 4, 5, 6..: 9th Feb - 7rd March
+# Week 4, 5, 6..: 9th Feb - 7th March
 
 - Basic interpreter and REPL
     - 1174 lines of Rust (total work in commits: 2956++, 1091--)
@@ -71,3 +71,21 @@
     - Small, fast, "simple" language: can be intepreted or compiled
     - Entire distribution is just ~1.1MB, can be compiled on virtually any platform
     - Lua 5.3's change wrt integers, `number` type with two subtypes
+
+# 8th March - April 1
+
+- Add loop and break constructs ([7519e864](https://github.com/polybuildr/balloon-lang/commit/7519e8646548a698847e27d97345c447a395efa7))
+  
+  Involved refactoring the `interpret_statement` logic to return `StatementEffect`
+- Add function-like `println` as a statement ([cf56b6e8](https://github.com/polybuildr/balloon-lang/commit/cf56b6e842a7f6a888717e6685fb2a6c9bcc897a))
+- Add inbuilt functions, make `println` one ([f878272d](https://github.com/polybuildr/balloon-lang/commit/f878272d240a676266e2f12f3558d0c2705507f8))
+- Complain when if/else branches exit with different variable types ([beaf0130](https://github.com/polybuildr/balloon-lang/commit/beaf01303cc457dc4a1551cdd0ef22c3e7543f2f))
+- Improved error printing
+    - [194bc9c1](https://github.com/polybuildr/balloon-lang/commit/194bc9c1cfabbb0602510eebc6570cd195c26ed6), [d75c72e0](https://github.com/polybuildr/balloon-lang/commit/d75c72e02f1dd99cc5b96c5f3b9e5157d067357b), [00bac476](https://github.com/polybuildr/balloon-lang/commit/00bac47637ec349858bc79adb79a5a164f77fb6a) and others
+    - Print better error messages with human-readable information and snippet of source causing error
+- Typecheck number of function arguments ([239a365c](https://github.com/polybuildr/balloon-lang/commit/239a365c3174e92686f084faae4fb2a93c5755bb))
+  
+  Also account for variadic functions like `println`
+- Support for user-written functions as closures ([69346dcd](https://github.com/polybuildr/balloon-lang/commit/69346dcdd176e7b472236a41270c6d85d0522c25, [bbcd3d7e](https://github.com/polybuildr/balloon-lang/commit/bbcd3d7eb2924be8e3a584a6af70daa9e229495b))
+  
+  Also add tests for curried add ([c3091fc3](https://github.com/polybuildr/balloon-lang/commit/c3091fc3edefbee86207bcc89e9ca160f2c68c84)) and Y combinator ([53887b89](https://github.com/polybuildr/balloon-lang/commit/53887b89fc70a501c8f69f0f0402db7f1c00f164))
