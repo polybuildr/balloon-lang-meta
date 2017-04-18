@@ -91,3 +91,19 @@
   Involved first possible occurrence of `null` - avoided that.
   
   Also add tests for curried add ([c3091fc3](https://github.com/polybuildr/balloon-lang/commit/c3091fc3edefbee86207bcc89e9ca160f2c68c84)) and Y combinator ([53887b89](https://github.com/polybuildr/balloon-lang/commit/53887b89fc70a501c8f69f0f0402db7f1c00f164))
+
+# April 2nd - April 18th
+- Significantly large refactoring, testing and minor changes
+  
+  [440009](https://github.com/polybuildr/balloon-lang/commit/440009809e2f9a7a018c48e6310657581c663792), [2f7b86d](https://github.com/polybuildr/balloon-lang/commit/2f7b86d4d062192b7fe893791975df6ae99c0355), [0f2c4bcc](https://github.com/polybuildr/balloon-lang/commit/0f2c4bccf4b989302ecf012004d17c1b3af092a5), [c13cca85](https://github.com/polybuildr/balloon-lang/commit/c13cca85c3ce7fb812918968de0043b179574b78) and others
+    - Add more tests for interpreter and typechecker
+    - Run tests on Travis CI ([a8c248d5](https://github.com/polybuildr/balloon-lang/commit/a8c248d5efc7efe4c76959f67fe944330a50a276))
+- Add strings and string concatenation ([7980837](https://github.com/polybuildr/balloon-lang/commit/79808378dcb4a581fe0d2a48cc99046fee9716d5))
+- Another set of refactoring commits
+- Add support for tuples (basically, immutable lists) ([76cb3b5b](https://github.com/polybuildr/balloon-lang/commit/76cb3b5b16a1c237812221761d6cce5fcde476a8))
+- Add a basic http server using Rust's TcpListener and TcpStream ([9e7bdefa3](https://github.com/polybuildr/balloon-lang/commit/9e7bdefa313c1f9697215de920fa9f28ce79dca1))
+- Add a stack trace-like thing in error messages ([642bfb00](https://github.com/polybuildr/balloon-lang/commit/642bfb0087e46589cc9248e146d9c0b26d71f099))
+- Implement member access by index for tuples ([696a794](https://github.com/polybuildr/balloon-lang/commit/696a794eb93945fbc659a723e5c402cfd125326e))
+  
+  Also did a sorely needed refactor of grammar - allowing for expressions like `expr(x)[0](y)[1]`
+- Typecheck function bodies with parameter types from call sites ([19f63718](https://github.com/polybuildr/balloon-lang/commit/19f6371851ccf131e918fb5983f4ad5482272bf6))
