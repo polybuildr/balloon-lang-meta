@@ -1,6 +1,6 @@
 # Agenda
 
-- Discuss currently implemented constructs (../, demo the interpreter and typechecker
+- Discuss currently implemented constructs ([working report](/formal-docs/working-report.md)), demo the interpreter and typechecker
 - Discuss next few things planned (too many, too little time):
   - Type inference/propagation and subsequent checking is messy at function boundaries, support gradual typing there
   - Member access by `.identifier` syntax
